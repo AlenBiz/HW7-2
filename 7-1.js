@@ -11,7 +11,7 @@ console.log(customer);
 function SayStatus (kodForPostomat) {
     if (customer.kodFromSms == kodForPostomat)
     {
-        console.log("Вы получили посылку из ячейки 4 и ваш счет составляет: 0 р.");
+        console.log(`Вы получили посылку из ячейки 4 и ваш счет составляет: ${(customer.balance) - 100} р.`);
     }
 };
 
